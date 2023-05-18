@@ -75,8 +75,8 @@ while True:
 
     # Write four lines of text.
 
-    draw.text((x, top + 0), "IP: " + IP, font=font, fill=255)
-    draw.text((x, top + 8), "CPU load: " + CPU, font=font, fill=255)
+    draw.text((x, top + 0), f"IP: {IP}", font=font, fill=255)
+    draw.text((x, top + 8), f"CPU load: {CPU}", font=font, fill=255)
     draw.text((x, top + 16), MemUsage, font=font, fill=255)
     draw.text((x, top + 25), Disk, font=font, fill=255)
 
